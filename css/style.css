@@ -1,0 +1,21 @@
+
+.profile-image {
+  /*width: 280px;*/
+  width: 140px;
+  height: auto;
+}
+
+.link-in-list {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.sparse-list li {
+  /*padding-bottom: 8px;*/
+  /*https://stackoverflow.com/questions/11556493/second-line-in-li-starts-under-the-bullet-after-css-reset*/
+  list-style-position: outside; /*bollet is not in text, so first and second lines of text can be aligned*/
+  padding-bottom: 0px;
+  text-indent: 0px; 
+  margin-left: 16px; /*text start potision from the left margin*/
+}
+
